@@ -11,8 +11,7 @@ The case study is about to fetch the list of users from the open API endpoint an
 Please follow the below URL to see the live application
 
 ```
-https://loginext-case-study.netlify.app/
-
+[https://loginext-case-study.netlify.app/](https://loginext-case-study.netlify.app/)
 ```
 
 # Features
@@ -34,19 +33,22 @@ Once the repository is cloned follow the below step in order the run the applica
 
 ```
 npm install
-
 ```
 
 for local development
 
 ```
 npm run dev
-
 ```
 
 Hit the below URL in the browser
 
 ```
 http://localhost:8080
+```
 
+To the build the app
+
+```
+npm run build
 ```
