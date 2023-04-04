@@ -1,0 +1,9 @@
+@import '~/src/sass/style';
+
+.footer {
+  background: $gray-extra-lighter;
+  padding: 16px;
+  color: $black;
+  text-align: center;
+  border-top: 1px solid $gray-light;
+}

@@ -1,0 +1,18 @@
+@import '~/src/sass/style';
+
+.user-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  &__btn {
+    flex: 1;
+    background: none;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    &:not(:last-child) {
+      border-right: 1px solid $gray-light;
+    }
+  }
+}

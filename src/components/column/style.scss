@@ -1,0 +1,45 @@
+
+@import '~/src/common/css/style';
+
+@include medium-up {
+  .column {
+    flex: 1;
+    padding-left: 16px;
+    &--12 {
+      flex: 0 0 100%;
+    }
+    &--11 {
+      flex: 0 0 percentage(11/12);
+    }
+    &--10 {
+      flex: 0 0 percentage(10/12);
+    }
+    &--9 {
+      flex: 0 0 percentage(9/12);
+    }
+    &--8 {
+      flex: 0 0 percentage(8/12);
+    }
+    &--7 {
+      flex: 0 0 percentage(7/12);
+    }
+    &--6 {
+      flex: 0 0 percentage(6/12);
+    }
+    &--5 {
+      flex: 0 0 percentage(5/12);
+    }
+    &--4 {
+      flex: 0 0 percentage(4/12);
+    }
+    &--3 {
+      flex: 0 0 percentage(3/12);
+    }
+    &--2 {
+      flex: 0 0 percentage(2/12);
+    }
+    &--1 {
+      flex: 0 0 percentage(1/12);
+    }
+  }
+}

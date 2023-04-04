@@ -1,0 +1,43 @@
+@import '~/src/sass/style';
+
+.user-card {
+  flex: 0 0 100%;
+  padding-bottom: 28px;
+  overflow: hidden;
+  &__container {
+    background: $gray-lighter;
+    border: 1px solid $gray-light;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  &__avatar {
+    font-size: 0;
+    height: 160px;
+    overflow: hidden;
+    text-align: center;
+  }
+  &__image {
+    height: 100%;
+  }
+}
+
+@include small-up {
+  .user-card {
+    flex: 0 0 50%;
+    padding: 16px;
+  }
+}
+
+@include medium-up {
+  .user-card {
+    flex: 0 0 33.33333%;
+    padding: 16px;
+  }
+}
+
+@include large-up {
+  .user-card {
+    flex: 0 0 25%;
+    padding: 16px;
+  }
+}

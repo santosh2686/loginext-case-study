@@ -1,0 +1,10 @@
+@import '~/src/sass/style';
+
+.header {
+  background: $primary;
+  padding: 16px;
+  color: $white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+}

@@ -1,0 +1,14 @@
+@import '~/src/sass/style';
+
+.update-user {
+  &__footer {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: $gray-extra-lighter;
+  }
+  &__submit-btn {
+    margin-left: 16px;
+  }
+}

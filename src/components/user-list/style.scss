@@ -1,0 +1,10 @@
+@import '~/src/sass/style';
+
+.user-list {
+  margin: 20px auto;
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
