@@ -11,7 +11,7 @@ The case study is about to fetch the list of users from the open API endpoint an
 Please follow the below URL to see the live application
 
 ```
-[https://loginext-case-study.netlify.app/](https://loginext-case-study.netlify.app/)
+https://loginext-case-study.netlify.app/
 ```
 
 # Features
