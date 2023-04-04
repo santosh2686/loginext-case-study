@@ -49,7 +49,7 @@ const Home = () => {
     toggleDeleteConfirmation(true)
   }
 
-  const updateHandler = () => {
+  const updateSuccess = () => {
     const { id: userId } = userDetail
     const recordIndex = userList.findIndex(({ id }) => id === userId)
     const updatedUserList = update(userList, {
@@ -101,7 +101,7 @@ const Home = () => {
           <UpdateUser
             userDetail={userDetail}
             changeHandler={changeHandler}
-            updateHandler={updateHandler}
+            updateSuccess={updateSuccess}
           />
         </Modal>
       )}

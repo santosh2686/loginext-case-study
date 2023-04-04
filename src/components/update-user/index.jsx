@@ -16,7 +16,7 @@ import './style.scss'
 const blk = 'update-user'
 
 const UpdateUser = ({
-  closeModal, userDetail, changeHandler, updateHandler,
+  closeModal, userDetail, changeHandler, updateSuccess,
 }) => {
   const [isLoading, setLoading] = useState(false)
   const [errors, setErrors] = useState({})
@@ -31,7 +31,7 @@ const UpdateUser = ({
     user.update(id, userDetail).then(() => {
       setLoading(false)
       closeModal()
-      updateHandler()
+      updateSuccess()
     })
   }
 
@@ -64,7 +64,7 @@ const UpdateUser = ({
 UpdateUser.propTypes = {
   closeModal: func,
   changeHandler: func,
-  updateHandler: func,
+  updateSuccess: func,
   userDetail: shape({
     username: string,
   }),
@@ -72,7 +72,7 @@ UpdateUser.propTypes = {
 
 UpdateUser.defaultProps = {
   closeModal: () => {},
-  updateHandler: () => {},
+  updateSuccess: () => {},
   changeHandler: () => {},
   userDetail: {},
 }

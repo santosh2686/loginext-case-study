@@ -15,6 +15,8 @@ https://loginext-case-study.netlify.app/
 ```
 
 # Features
+ - Application is responsive in nature.
+ - Build the reusable components.
  - Eslint and styleLint configuration is in place in order to achieve the code quality.
  - Custom webpack configuration for both dev and production builds.
  - The loading indictor will be display while loading the user's list.
