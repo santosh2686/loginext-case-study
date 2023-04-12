@@ -14,3 +14,10 @@ const devConfig = {
 }
 
 module.exports = merge(commonConfig, devConfig)
+
+// Context API
+// Save the users in the form of map { userId: {} }
+// Validation of all the field
+// Unit testing
+// Submit the form on enter by using form component and submit button
+// compression gZip, Brotli

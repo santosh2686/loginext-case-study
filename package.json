@@ -1,10 +1,12 @@
 {
+  "homepage": "http://santosh2686.github.io/loginext-case-study",
   "name": "loginext-case-study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "dev": "node_modules/.bin/webpack-dev-server --mode=development --config webpack.dev.js",
     "build": "rm -rf build && node_modules/.bin/webpack --mode production --config webpack.prod.js",
@@ -44,6 +46,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-sonarjs": "^0.19.0",
     "eslint-webpack-plugin": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.5",
     "path": "^0.12.7",
