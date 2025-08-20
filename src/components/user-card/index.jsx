@@ -24,7 +24,7 @@ const UserCard = ({
         <div className={bemClass([blk, 'avatar'])}>
           <img
             alt={username}
-            src={`https://avatars.dicebear.com/v2/avataaars/${username}.svg?options[mood][]=happy`}
+            src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${username}`}
             className={bemClass([blk, 'image'])}
           />
         </div>
